@@ -1,0 +1,37 @@
+.Lamp {
+    position: relative;
+    width: 120px;
+    margin: 5px auto;
+    padding: 5px 15px;
+    height: 51px;
+  }
+  .Lamp button {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border: none;
+    padding: 5px 10px;
+    color: #fff;
+  }
+  .Lamp button.off {
+    background: red;
+  }
+  .Lamp button.on {
+    background: green;
+  }
+  .Lamp figure {
+    position: absolute;
+    margin: 0;
+    right: 20px;
+    width: 51px;
+    height: 51px;
+    border-radius: 100%;
+  }
+  .Lamp figure.off {
+    background: rgba(0,0,0,0.03);
+    box-shadow: inset 0px 1px 5px rgba(0,0,0,0.1), inset 0px 2px 20px rgba(0,0,0,0.07);
+  }
+  .Lamp figure.on {
+    background: rgba(255,160,96,1);
+    box-shadow: 0px 0px 10px rgba(255,160,96,0.8), 0px 0px 30px rgba(255,160,96,0.8), 0px 0px 50px rgba(255,160,96,0.6), 0px 0px 70px rgba(255,160,96,0.6);
+  }

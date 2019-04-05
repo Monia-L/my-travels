@@ -7,6 +7,11 @@
   height: 10vmin;
   pointer-events: none;
 }
+.homerSpeed{
+  animation: App-logo-spin infinite 5s linear;
+  height: 10vmin;
+  pointer-events: none; 
+}
 
 .App-header {
   background-image: url('https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
